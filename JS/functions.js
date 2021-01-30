@@ -62,6 +62,7 @@ function appendStudentList(pStudentsList) {
                                 <p>Name</p>
                                 <p>Surname</p>
                                 <p>Age</p>
+                                <p>Number</p>
                             </div>`;
 
     for (index = 0; index < pStudentsList.length; index++) {
