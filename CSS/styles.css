@@ -1,0 +1,99 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 9% 84% 5%;
+    gap: 5px 5px;
+}
+
+header {
+    display: flex;
+    background-color: aquamarine;
+    grid-column: 1/3;
+    grid-row: 1;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    background-color: rgb(133, 16, 74);
+    grid-column: 1/3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.student-form,
+.student-list {
+    margin: 30px 15%;
+    padding: 20px 40px;
+    border: black 2px solid;
+    background-color: aquamarine;
+    width: 20%;
+    height: 80%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+.student-list {
+    width: 50%;
+    margin-left: 20px;
+
+}
+
+.student-form *,
+.student-list * {
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+
+#label-student {
+    margin-top: 80px;
+}
+
+.fa-book::before {
+    margin-left: 50px;
+    color: #15022b;
+    font-size: 48px;
+}
+
+footer {
+    display: flex;
+    background-color: rgb(223, 171, 29);
+    grid-column: 1/3;
+    grid-row-start: 3;
+    grid-row: 3;
+}
+
+label,
+button {
+    display: block;
+}
+
+.student-list button {
+    display: inline-block;
+}
+
+.student-list p {
+    width: 80px;
+}
+
+#total p {
+    width: 200px;
+}
+
+p {
+    display: inline-block;
+    margin: 5px;
+}
+
+button {
+    height: 25px;
+    width: 80px;
+    background-color: coral;
+}
+
+input {
+    width: 80%;
+    height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
